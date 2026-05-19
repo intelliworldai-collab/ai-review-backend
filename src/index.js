@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 <html><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI Review Reply</title>
+  <title>Intelli Review</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'Google Sans',Roboto,Arial,sans-serif;background:#f1f3f4;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
@@ -56,7 +56,7 @@ app.get('/', (req, res) => {
 <body>
   <div class="card">
     <div class="logo">✨</div>
-    <h1>AI Review Reply</h1>
+    <h1>Intelli Review</h1>
     <div class="price">$12.99 / month · 5 replies free</div>
     <p class="tagline">Stop spending 30 minutes a day on Google reviews.<br>We generate replies — you approve in 90 seconds.</p>
     ${error ? `<div class="error">⚠️ ${esc(error) === 'auth_failed' ? 'Google sign-in failed. Please try again.' : esc(error)}</div>` : ''}

@@ -95,7 +95,7 @@ async function sendDigestEmail({ toEmail, locationName, reviewsWithReplies }) {
       <!-- Footer note -->
       <div style="text-align:center;font-size:11px;color:#9aa0a6;margin-top:8px;line-height:1.6;">
         Approve links expire in 7 days.<br>
-        Powered by AI Review Reply · <a href="${BASE_URL}/unsubscribe?email=${encodeURIComponent(toEmail)}" style="color:#9aa0a6;">Unsubscribe</a>
+        Powered by Intelli Review · <a href="${BASE_URL}/unsubscribe?email=${encodeURIComponent(toEmail)}" style="color:#9aa0a6;">Unsubscribe</a>
       </div>
     </div>
 
@@ -104,7 +104,7 @@ async function sendDigestEmail({ toEmail, locationName, reviewsWithReplies }) {
 </html>`;
 
   await resend.emails.send({
-    from: process.env.EMAIL_FROM || 'AI Review Reply <digest@aireviewreply.com>',
+    from: process.env.EMAIL_FROM || 'Intelli Review <digest@aireviewreply.com>',
     to: toEmail,
     subject: `${count} new Google review${count !== 1 ? 's' : ''} ready to approve — ${locationName}`,
     html

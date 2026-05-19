@@ -86,7 +86,7 @@ router.get('/dashboard', async (req, res) => {
     res.send(`<!DOCTYPE html>
 <html><head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dashboard — AI Review Reply</title>
+  <title>Dashboard — Intelli Review</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'Google Sans',Roboto,Arial,sans-serif;background:#f1f3f4;color:#202124}
@@ -110,7 +110,7 @@ router.get('/dashboard', async (req, res) => {
 </head>
 <body>
   <nav class="nav">
-    <div class="nav-brand">✨ AI Review Reply</div>
+    <div class="nav-brand">✨ Intelli Review</div>
     <div class="nav-links">
       <a href="/dashboard?userId=${userId}">Dashboard</a>
       <a href="/settings?userId=${userId}">Settings</a>
@@ -231,7 +231,7 @@ router.get('/settings', async (req, res) => {
     res.send(`<!DOCTYPE html>
 <html><head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Settings — AI Review Reply</title>
+  <title>Settings — Intelli Review</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'Google Sans',Roboto,Arial,sans-serif;background:#f1f3f4;color:#202124}
@@ -244,7 +244,7 @@ router.get('/settings', async (req, res) => {
 </head>
 <body>
   <nav class="nav">
-    <div class="nav-brand">✨ AI Review Reply</div>
+    <div class="nav-brand">✨ Intelli Review</div>
     <div class="nav-links">
       <a href="/dashboard?userId=${userId}">← Dashboard</a>
     </div>

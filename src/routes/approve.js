@@ -192,7 +192,7 @@ function page(title, body) {
 <html><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>${title} — AI Review Reply</title>
+  <title>${title} — Intelli Review</title>
   <style>
     * { box-sizing:border-box; margin:0; padding:0; }
     body { font-family:'Google Sans',Roboto,Arial,sans-serif; background:#f1f3f4; padding:24px 16px; color:#202124; }
@@ -203,7 +203,7 @@ function page(title, body) {
 </head>
 <body>
   <div class="card">
-    <div style="font-size:13px;color:#1a73e8;font-weight:700;margin-bottom:20px;">✨ AI Review Reply</div>
+    <div style="font-size:13px;color:#1a73e8;font-weight:700;margin-bottom:20px;">✨ Intelli Review</div>
     ${body}
   </div>
 </body></html>`;
